@@ -1,19 +1,19 @@
 {
 	"network": {
-		"broadcast" : [ "192.168.3.255" ]
+		"broadcast" : [ "192.168.50.111" ]
 	},
-	
+
 	"blynk": {
 		"token": "*** your Blynk token ***",
-		
-		"server-address": "*** local server address, or remove this key to use blynk-cloud.com ***",
+
+		"server-address": "***************",
 		"server-port": "*** local server port, or remove this key to use the default for blynk-cloud.com ***",
-		
+
 		"devices": [
-			"*** device id 1 ***,
-			"*** device id 2 ***"
+			"50:2C:C6:C1:E4:44",
+			"50:2C:C6:C1:D5:EA"
 		],
-		
+
 		"pins": {
 			"device-selector": 100,
 			"set-mode": 99,

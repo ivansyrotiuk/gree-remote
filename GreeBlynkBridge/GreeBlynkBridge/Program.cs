@@ -8,6 +8,7 @@
     using System.Threading.Tasks;
     using System.Timers;
     using GreeBlynkBridge.Blynk;
+    using GreeBlynkBridge.Gree;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.Logging;
 
@@ -69,6 +70,10 @@
                     await controller.UpdateDeviceStatus();
                 }
             };
+
+            //await controllers[1].SetDeviceParameter(DeviceParameterKeys.Power, 0);
+            await controllers[0].SetDeviceParameter(DeviceParameterKeys.SetTemperature, 23);
+
 
             while (true)
             {
