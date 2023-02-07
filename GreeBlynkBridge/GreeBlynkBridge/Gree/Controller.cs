@@ -12,7 +12,7 @@ namespace GreeBlynkBridge.Gree
     using Microsoft.Extensions.Logging;
     using Newtonsoft.Json;
 
-    internal class Controller
+    public class Controller
     {
         private AirConditionerModel model;
         private ILogger log;

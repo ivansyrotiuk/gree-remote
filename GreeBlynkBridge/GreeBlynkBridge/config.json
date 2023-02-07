@@ -4,10 +4,10 @@
 	},
 
 	"blynk": {
-		"token": "*** your Blynk token ***",
+		"token": "",
 
-		"server-address": "***************",
-		"server-port": "*** local server port, or remove this key to use the default for blynk-cloud.com ***",
+		"server-address": "",
+		"server-port": "",
 
 		"devices": [
 			"50:2C:C6:C1:E4:44",

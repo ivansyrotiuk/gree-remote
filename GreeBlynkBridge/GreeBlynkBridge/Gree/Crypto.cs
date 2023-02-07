@@ -4,7 +4,7 @@
     using System.Security.Cryptography;
     using System.Text;
 
-    internal static class Crypto
+    public static class Crypto
     {
         public static readonly string GenericKey = "a3K8Bx%2r8Y7#xDh";
 

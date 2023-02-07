@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
 
-    internal class DeviceStatusChangedEventArgs
+    public class DeviceStatusChangedEventArgs
     {
         public Dictionary<string, int> Parameters { get; set; }
     }

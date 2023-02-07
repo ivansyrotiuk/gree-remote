@@ -8,7 +8,7 @@
     using Microsoft.Extensions.Logging;
     using Newtonsoft.Json;
 
-    internal static class Scanner
+    public static class Scanner
     {
         private static ILogger log = Logging.Logger.CreateLogger("Scanner");
 
