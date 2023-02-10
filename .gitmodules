@@ -1,6 +1,7 @@
 [submodule "3rdparty/cryptopp"]
 	path = 3rdparty/cryptopp
 	url = https://github.com/weidai11/cryptopp.git
+	branch = master
 [submodule "GreeBlynkBridge/BlynkLibrary"]
 	path = GreeBlynkBridge/BlynkLibrary
 	url = https://github.com/tomikaa87/BlynkLibrary.git
